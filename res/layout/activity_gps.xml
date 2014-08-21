@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="64dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/menu_bg_selected"
+        android:clickable="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvGpsStatusTitle"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:gravity="right"
+            android:text="@string/gps_title_GpsStatus" />
+
+        <TextView
+            android:id="@+id/tvGpsStatus"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvGpsStatusTitle"
+            android:gravity="center"
+            android:text="@string/gps_msg_Locateing"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSatelliteCountTitle"
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvGpsStatus"
+            android:gravity="right"
+            android:text="@string/gps_title_SatelliteCount" />
+
+        <TextView
+            android:id="@+id/tvSatelliteCount"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvSatelliteCountTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLongitudeTitle"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGpsStatusTitle"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:gravity="right"
+            android:text="@string/gps_title_Longitude" />
+
+        <TextView
+            android:id="@+id/tvLongitude"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_below="@id/tvGpsStatusTitle"
+            android:layout_toRightOf="@id/tvLongitudeTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLatitudeTitle"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGpsStatusTitle"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvLongitude"
+            android:gravity="right"
+            android:text="@string/gps_title_Latitude" />
+
+        <TextView
+            android:id="@+id/tvLatitude"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_below="@id/tvGpsStatusTitle"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvLatitudeTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAltitudeTitle"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLongitudeTitle"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:gravity="right"
+            android:text="@string/gps_title_Altitude" />
+
+        <TextView
+            android:id="@+id/tvAltitude"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_below="@id/tvLongitudeTitle"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvAltitudeTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTimeTitle"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLongitudeTitle"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvAltitude"
+            android:gravity="right"
+            android:text="@string/gps_title_Time" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="80dip"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_below="@id/tvLongitudeTitle"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvTimeTitle"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llChart"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

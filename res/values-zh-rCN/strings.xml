@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手持机测试程序</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="title_ip_or_domain">输入域名/IP</string>
+    <string name="title_ping_count">PING次数</string>
+    <string name="title_ping_background">后台运行</string>
+    <string name="title_ping_wait">超时时间</string>
+    <string name="title_start">开始</string>
+    <string name="title_stop">停止</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="action_set">设置</string>
+    <string name="msg_network_none">无网络，请先打开网络</string>
+    <string name="msg_network_unavailable">无网络</string>
+    <string name="msg_domain_ip_bad">域名/IP格式错误</string>
+    <string name="msg_loding">加载中...</string>
+    <string name="msg_no_data">无数据</string>
+    <string name="app_title">手持机测试程序 %s</string>
+    <string name="upload_title">上传测速 %s</string>
+    <string name="download_title">下载测速 %s</string>
+    <string name="action_back">返回</string>
+    <string name="ok">确定</string>
+    <string name="exit">退出</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清除</string>
+    <string name="close">关闭</string>
+    <string name="up_one_level">..(返回上一级目录)</string>
+    <string name="current_dir">.(刷新)</string>
+    <string name="strFilePath">文件路径</string>
+    <string name="strBrowser">浏览...</string>
+    <string name="strPermissionDeny">无权限访问该目录</string>
+    <string name="title_activity_download">下载测速</string>
+    <string name="title_activity_upload">上传测速</string>
+    <string name="title_Ping">Ping测试</string>
+    <string name="title_Download">下载测速</string>
+    <string name="title_Upload">上传测速</string>
+    <string name="strUpload">上传</string>
+    <string name="title_activity_ping">PingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_ping_packet_size">数据包大小</string>
+    <string name="ping_title">Ping测试 %s</string>
+    <string name="yid_title">一维条码测试</string>
+    <string name="title_activity_yi_d">一维条码测试</string>
+    <string name="title_scan">扫描</string>
+    <string name="title_clear">清除</string>
+    <string name="title_init_barcode">初始条码</string>
+    <string name="title_scan_between">执行间隔</string>
+    <string name="yid_title_scan_compare">比较</string>
+    <string name="yid_title_scan_continuous">连续,间隔</string>
+    <string name="yid_msg_scan_fail">读取失败</string>
+    <string name="yid_msg_scan_error">条码不正确</string>
+    <string name="title_scan_count">扫描次数</string>
+    <string name="title_succ_count">成功次数</string>
+    <string name="title_fail_count">失败次数</string>
+    <string name="title_error_count">错误次数</string>
+    <string name="title_error_rate">错误率</string>
+    <string name="title_succ_rate">成功率</string>
+    <string name="title_fail_rate">失败率</string>
+    <string name="title_activity_bluetooth_print">蓝牙打印测试</string>
+
+    <!-- BTPrinterDemo -->
+    <string name="send">发送</string>
+    <string name="Print">打印</string>
+    <string name="Clear">清空</string>
+    <string name="not_connected">请先连接蓝牙打印机</string>
+    <string name="bt_not_enabled_leaving">蓝牙没有启动，不能打单据</string>
+    <string name="title_connecting">正在连接...</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">没有连接</string>
+    <string name="default_font_gray_scale">4</string>
+    <string name="fontGrayscaleName">打印灰度</string>
+    <string name="fontGrayScaleRange">(1~8)</string>
+    <string name="PrintContent"> HELLO WORLD! \n</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">扫描设备...</string>
+    <string name="select_device">选择连接的设备</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="title_paired_devices">匹配的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描设备</string>
+    <string name="title_activity_uhfmain">UHF测试</string>
+
+    <!-- inventorytag -->
+    <string name="tvInventoryName">识别标签</string>
+    <string name="tvCountOfTags">标签数&#160;&#160;</string>
+    <string name="rbInventorySingle">单步</string>
+    <string name="rbInventoryLoop">循环</string>
+    <string name="rbInventoryAnti">防碰撞</string>
+    <string name="tvQ">Q值：</string>
+    <string name="btInventory">开始识别</string>
+    <string name="title_stop_Inventory">停止识别</string>
+    <string name="tvTagUii">标签EPC</string>
+    <string name="tvTagLen">长度</string>
+    <string name="tvTagCount">数量</string>
+    <string name="btClear">清空数据</string>
+
+    <string-array name="arrayAntiQ">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="arrayLF">
+        <item>ID卡</item>
+        <item>动物标签</item>
+        <item>HiTag</item>
+        <item>HDX标签</item>
+        <item>EM4450</item>
+    </string-array>
+    <!-- read -->
+    <string name="btUii">读标签号</string>
+    <string name="ckWithUii">指定标签</string>
+    <string name="tvTagUii_Read">标&#160;&#160;签&#160;&#160;号：</string>
+    <string name="tvBank">存&#160;&#160;储&#160;&#160;区：</string>
+    <string name="tvPtr">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址：</string>
+    <string name="tvLen">长&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;度：</string>
+    <string name="tvAccessPwd">访问密码：</string>
+    <string name="tvOption_Read">读取模式：</string>
+    <string name="ckLoop_Read">循环</string>
+    <string name="ckAnti_Read">防碰撞</string>
+    <string name="ckSecond">2级参数设置</string>
+    <string name="tvBank2_Read">存&#160;&#160;储&#160;&#160;区：</string>
+    <string name="tvPtr2_Read">地&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;址：</string>
+    <string name="tvLen2_Read">长&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;度：</string>
+    <string name="tvData_Read">数据内容：</string>
+    <string name="btRead">读取数据</string>
+
+    <string-array name="arrayBank">
+        <item>RESERVED</item>
+        <item>UII</item>
+        <item>TID</item>
+        <item>USER</item>
+    </string-array>
+    <string-array name="arrayOption_Read">
+        <item>单次读</item>
+        <item>循环读</item>
+        <item>防碰撞读（1级）</item>
+        <item>防碰撞读（2级）</item>
+    </string-array>
+
+    <!-- chooseuii -->
+    <string name="tvChooseInfo">请选择UII的去向</string>
+    <string name="rbRead">读取数据</string>
+    <string name="rbWrite">写入数据</string>
+    <string name="rbErase">擦除数据</string>
+    <string name="rbLock">锁定数据</string>
+    <string name="btEnter">确定</string>
+    <string name="btCancel">取消</string>
+
+    <!-- getuiiforoperation -->
+    <string name="tvGetUiiForOperation">标签列表</string>
+    <string name="btReadUii">读取UII</string>
+
+    <!-- datalist -->
+    <string name="btStop">停止</string>
+    <string name="btBack1">返回</string>
+
+    <!-- datalist_items -->
+    <string name="tvTagUii_Data">标签号：</string>
+    <string name="tvBank_Data">存储区：</string>
+    <string name="tvPtr_Data">地址：</string>
+    <string name="tvLen_Data">长度：</string>
+    <string name="tvCount_Data">次数：</string>
+    <string name="tvData_Data">数据：</string>
+    <string name="tvStatus_Data">状态：</string>
+
+    <!-- write -->
+    <string name="tvTagUii_Write">标&#160;&#160;签&#160;&#160;号：</string>
+    <string name="tvOption_Write">写入模式：</string>
+    <string name="tvData_Write">写入数据：</string>
+    <string name="btWrite">写入数据</string>
+
+    <string-array name="arrayOption_Write">
+        <item>单字单次</item>
+        <item>多字单次</item>
+    </string-array>
+
+    <!-- lock -->
+    <string name="tvTagUii_Lock">标&#160;&#160;签&#160;&#160;号：</string>
+    <string name="tvKill_Lock">KillPwd：</string>
+    <string name="tvAccess_Lock">AccessPwd：</string>
+    <string name="tvUII_Lock">UII：</string>
+    <string name="tvTID_Lock">TID：</string>
+    <string name="tvUSER_Lock">USER：</string>
+    <string name="tvLockCode_Lock">锁&#160;&#160;定&#160;&#160;码：</string>
+    <string name="btCreateCode">生成</string>
+    <string name="btLock">锁定</string>
+
+    <string-array name="arrayLock">
+        <item>保持状态</item>
+        <item>锁定</item>
+        <item>解锁</item>
+        <item>永久锁定</item>
+        <item>永久解锁</item>
+    </string-array>
+
+    <!-- killtag -->
+    <string name="tvTagUii_Kill">标&#160;&#160;签&#160;&#160;号：</string>
+    <string name="tvKillPwd">销毁密码：</string>
+    <string name="btKill">销毁</string>
+
+    <!-- select -->
+    <string name="tvBank_Select">存储区：</string>
+    <string name="tvPtr_Select">地&#160;&#160;&#160;&#160;址：</string>
+    <string name="tvMask">掩&#160;&#160;&#160;&#160;码：</string>
+    <string name="tvOrder">序&#160;&#160;&#160;&#160;号：</string>
+    <string name="num">数量：</string>
+    <string name="btAdd_Select">添加</string>
+    <string name="btDel_Select">删除</string>
+    <string name="btChoose_Select">选择</string>
+    <string name="btRead_Select">读取</string>
+
+    <string-array name="arrayNum">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <!-- frequency -->
+    <string name="tvMode">工作模式：</string>
+    <string name="btSetFre">设置频率</string>
+    <string name="tvFreRange">频率范围：</string>
+    <string name="btGetFre">读取频率</string>
+    <string name="tvStartFreI">起始频率整数：</string>
+    <string name="tvFreI">840</string>
+    <string name="btAddI">+</string>
+    <string name="btReduceI">-</string>
+    <string name="tvStartFreD">起始频率小数：</string>
+    <string name="tvFreD">50</string>
+    <string name="btAddD">+</string>
+    <string name="btReduceD">-</string>
+    <string name="tvBase">频率基数：</string>
+    <string name="tvChannelCount">频道数：</string>
+    <string name="HintChannelCount">频道数不小于1</string>
+    <string name="tvChinnelSpace">频道带宽：</string>
+    <string name="tvHop">跳频方式：</string>
+    <string name="btCalRange">计算</string>
+    <string name="tvMHz">MHz</string>
+    <string name="tvKHz">KHz</string>
+
+    <string-array name="arrayMode">
+        <item>中国标准(920~925MHz)</item>
+        <item>中国标准(840~845MHz)</item>
+        <item>ETSI标准(865~868MHz)</item>
+        <item>定频模式(922MHz)</item>
+    </string-array>
+    <string-array name="arrayBase">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="arrayChannelSpc0">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="arrayChannelSpc1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="arrayHop">
+        <item>随机跳频</item>
+        <item>从高往低顺序跳频</item>
+        <item>从低往高顺序跳频</item>
+    </string-array>
+
+    <string name="title_activity_uhfset">设置</string>
+    <string name="title_activity_network_status">网络信号测试</string>
+    <string name="ap_list_header_channel">通道</string>
+    <string name="ap_list_header_level">等级</string>
+    <string name="ap_list_header_ssid">子网掩码</string>
+    <string name="ap_list_header_state">状态</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="ap_title_ssid">已连接：</string>
+    <string name="ap_title_pause">暂停</string>
+    <string name="ap_title_goon">继续</string>
+    <string name="ap_title_wifi_size">WiFi个数：</string>
+    <string name="ap_dialog_title">连接到</string>
+    <string name="ap_title_bssid">BSSID：</string>
+    <string name="ap_title_security">安全：</string>
+    <string name="ap_title_pwd">密码：</string>
+    <string name="ap_title_ip">IP地址：</string>
+    <string name="tel_title_OperatorName">运营商：</string>
+    <string name="tel_title_Status">状态：</string>
+    <string name="tel_title_NetworkType">网络类型：</string>
+    <string name="tel_title_Signal">信号强度：</string>
+    <string name="title_activity_gps">GPS定位测试</string>
+    <string name="gps_title_Longitude">经度：</string>
+    <string name="gps_title_Latitude">纬度：</string>
+    <string name="gps_title_SatelliteCount">连接卫星数：</string>
+    <string name="gps_title_Altitude">海拔：</string>
+    <string name="gps_title_GpsStatus">GPS状态：</string>
+    <string name="gps_title_Time">定位耗时：</string>
+    <string name="title_activity_app_set">全局设置</string>
+    <string name="title_activity_a1443">RFID14443A测试</string>
+    <string name="title_activity_iso15693">RFID15693测试</string>
+    <string name="m1_title_tag_type">标签类型:</string>
+    <string name="m1_title_key_type">密钥类型:</string>
+    <string name="m1_title_key_value">密钥:</string>
+    <string name="m1_title_sector">扇区:</string>
+    <string name="m1_title_block">块:</string>
+    <string name="m1_title_read">读取</string>
+    <string name="m1_title_write">写入</string>
+    <string name="ul_title_uid">UID：</string>
+    <string name="ul_title_scan">扫描标签</string>
+    <string name="ul_title_AFI">AFI(1 Byte)</string>
+    <string name="ul_title_DSFID">DSFID(1 Byte)</string>
+    <string name="ml_title_read_id">读取ID</string>
+    <string name="ul_title_write_AFI">写入</string>
+    <string name="ul_title_lock_AFI">锁定</string>
+    <string name="ul_title_write_DSFID">写入</string>
+    <string name="ul_title_lock_DSFID">锁定</string>
+    <string name="rfid_title_continuous">连续读写</string>
+    <string name="rfid_title_continuous_read">连续读</string>
+    <string name="rfid_title_continuous_write">连续写</string>
+    <string name="rfid_title_continuous_read_write">连续读写</string>
+    <string name="rfid_title_continuous_count">总次数:</string>
+    <string name="rfid_title_continuous_read_succ_count">读卡成功次数:</string>
+    <string name="rfid_title_continuous_read_fail_count">读卡失败次数:</string>
+    <string name="rfid_title_continuous_write_succ_count">写卡成功次数:</string>
+    <string name="rfid_title_continuous_write_fail_count">写卡失败次数:</string>
+    <string name="action_rfid_ver">RFID版本</string>
+    <string name="title_about_model">设备型号:</string>
+    <string name="title_about_android_release">Android版本:</string>
+    <string name="title_about_device_release">系统版本:</string>
+    <string name="title_about_jar_release">jar版本:</string>
+    <string name="title_about_mac">MAC地址:</string>
+    <string name="title_activity_global_set">全局设置</string>
+    <string name="title_activity_key_test">按键测试</string>
+    <string name="title_activity_key_power">电\n源\n键</string>
+    <string name="title_activity_key_home">HOME键</string>
+    <string name="title_activity_key_back">返回键</string>
+    <string name="ping_msg_pinging">正在 Ping </string>
+    <string name="ping_msg_fail">Ping已终止，域名/IP错误</string>
+    <string name="up_msg_net_not_conn">网络未连接</string>
+    <string name="up_msg_sel_file">请先选择文件</string>
+    <string name="up_msg_file_not_exist">文件不存在</string>
+    <string name="up_msg_file_size">文件大小：</string>
+    <string name="up_msg_start_time">开始时间：</string>
+    <string name="up_msg_stop_time">结束时间：</string>
+    <string name="up_msg_total_time">上传耗时：</string>
+    <string name="up_msg_avg_speed">平均速度：</string>
+    <string name="download_msg_down_file">下载文件</string>
+    <string name="download_msg_down_confirm">确认下载该文件?</string>
+    <string name="download_msg_confirm">确定</string>
+    <string name="download_msg_cancel">取消</string>
+    <string name="download_msg_close">关闭</string>
+    <string name="download_msg_file_path_not_exist">文件路径不存在</string>
+    <string name="download_msg_down_succ">下载完成</string>
+    <string name="download_msg_down_report">测试结果</string>
+    <string name="download_msg_down_file_size">下载大小：</string>
+    <string name="download_msg_total_time">下载耗时：</string>
+    <string name="download_msg_sdcard_not_exist">SD不存在</string>
+    <string name="download_msg_downing">正在下载 ...</string>
+    <string name="bluetooth_msg_not_supp">设备不支持蓝牙</string>
+    <string name="network_msg_title_mobile">蜂窝数据</string>
+    <string name="network_msg_sim_not_exist">无Sim卡信息</string>
+    <string name="network_msg_emergency_only">仅限紧急呼叫</string>
+    <string name="network_msg_in_service">信号正常</string>
+    <string name="network_msg_out_of_service">不在服务区</string>
+    <string name="network_msg_power_off">断电</string>
+    <string name="network_msg_wifi_conn_fail">WiFi连接失败</string>
+    <string name="network_msg_wifi_conning">WiFi连接中...</string>
+    <string name="network_msg_wifi_not_enable">WiFi不可用</string>
+    <string name="network_msg_wifi_conn">连接</string>
+    <string name="network_msg_wifi_speed">速度：</string>
+    <string name="network_msg_wifi_level">等级：</string>
+    <string name="gps_msg_open_gps">请开启GPS导航...</string>
+    <string name="gps_msg_Locate_succ">定位成功</string>
+    <string name="gps_msg_Locateing">正在定位...</string>
+    <string name="gps_msg_Locate_stop">定位结束</string>
+    <string name="gps_msg_title_satellite_signal">卫星信号</string>
+    <string name="uhf_msg_tab_scan">扫描</string>
+    <string name="uhf_msg_tab_read">读数据</string>
+    <string name="uhf_msg_tab_write">写数据</string>
+    <string name="uhf_msg_tab_set">设置</string>
+    <string name="rfid_msg_scan_fail">扫描失败</string>
+    <string name="rfid_msg_scan_continuous">连续扫描</string>
+    <string name="ping_msg_background_ping">Ping</string>
+    <string name="ping_msg_runing">正在ping,完成后点击查看结果</string>
+    <string name="ping_msg_finish">完成</string>
+    <string name="bluetooth_title_file">文件</string>
+    <string name="title_activity_battery_monitor">电量监视</string>
+    <string name="battery_title_tips">提示：结果保存在SD卡的chainway/BatteryMonitor目录中</string>
+    <string name="battery_msg_background_monitoring">电量监视</string>
+    <string name="battery_msg_runing">电量监视中...</string>
+    <string name="title_activity_fingerprint">指纹识别测试</string>
+    <string name="fingerprint_tab_identification">识别</string>
+    <string name="fingerprint_tab_acquisition">采集</string>
+    <string name="fingerprint_title_page_id">存储ID(0~254)</string>
+    <string name="fingerprint_title_name">用户名称</string>
+    <string name="fingerprint_btn_save">指纹采集</string>
+    <string name="fingerprint_btn_identification">指纹识别</string>
+    <string name="fingerprint_msg_page_id_not_null">存储ID不能为空</string>
+    <string name="fingerprint_msg_name_not_null">用户名称不能为空</string>
+    <string name="fingerprint_msg_page_id_need_digits">存储ID必须为数字</string>
+    <string name="fingerprint_msg_page_id_need_0_to_254">存储ID必须0~254范围内</string>
+    <string name="fingerprint_msg_acq_succ">采集成功</string>
+    <string name="fingerprint_msg_acq_fail">采集失败</string>
+    <string name="fingerprint_title_show_img">显示指纹图片</string>
+    <string name="fingerprint_title_get_img_fail">获取指纹图片失败</string>
+    <string name="fingerprint_msg_init_fail">模块初始化失败</string>
+    <string name="fingerprint_msg_ident_fail">认证失败</string>
+    <string name="fingerprint_msg_ident_succ">认证成功</string>
+    <string name="fingerprint_title_score">匹配得分</string>
+    <string name="fingerprint_tab_history">数据</string>
+    <string name="fingerprint_btn_import">导入模块</string>
+    <string name="fingerprint_btn_clear">重置模块</string>
+    <string name="fingerprint_msg_import_fail">导入失败(succ:%1$d,fail:%2$d)</string>
+    <string name="fingerprint_msg_import_succ">导入成功</string>
+    <string name="fingerprint_msg_sure_clear">您确定要重置吗？</string>
+    <string name="fingerprint_msg_clear_fail">重置失败</string>
+    <string name="fingerprint_msg_clear_succ">重置成功</string>
+    <string name="fingerprint_title_index">序号</string>
+    <string name="fingerprint_title_pageid">页ID</string>
+    <string name="fingerprint_title_uname">名称</string>
+    <string name="fingerprint_title_create">采集时间</string>
+    <string name="fingerprint_title_local_num">本地指纹数：</string>
+    <string name="fingerprint_title_model_num">模块指纹数：</string>
+    <string name="fingerprint_menu_del">删除</string>
+    <string name="network_msg_operator_is_null">无运营商信息</string>
+    <string name="file_title_sel_file">选择文件</string>
+    <string name="file_title_sel_file_confirm">确认选择该文件?</string>
+    <string name="file_btn_confirm">确定</string>
+    <string name="file_btn_cancel">取消</string>
+    <string name="file_msg_cancel">取消选择</string>
+    <string name="ping_msg_not_null">不能为空</string>
+    <string name="gps_title_tip">提示</string>
+    <string name="gps_msg_gps_not_open">GPS未打开，是否去打开？</string>
+    <string name="gps_btn_yes">是</string>
+    <string name="gps_btn_no">否</string>
+    <string name="bluetooth_title_tip">提示</string>
+    <string name="bluetooth_msg_not_adapter">没有已配对的蓝牙设备，请先去配对。</string>
+    <string name="bluetooth_btn_yes">是</string>
+    <string name="bluetooth_btn_no">否</string>
+    <string name="bluetooth_msg_connection_failed">连接失败，请检查设备是否被占用</string>
+    <string name="lf_title_card_type">标签类型：</string>
+    <string name="lf_msg_scan_fail">读取失败</string>
+    <string name="lf_title_pageid">页ID:</string>
+    <string name="lf_title_data">数据:</string>
+    <string name="lf_title_write">写入</string>
+    <string name="lf_title_read">读取</string>
+    <string name="lf_msg_data_not_null">数据不能为空</string>
+    <string name="lf_msg_data_not_hex4">请输入4字节HEX</string>
+    <string name="lf_msg_write_succ">写入成功</string>
+    <string name="lf_msg_write_fail">写入失败</string>
+    <string name="lf_msg_data_page_id_err_em4305">只能在0,3,5~13,其中一页写入数据</string>
+    <string name="title_activity_lf">RFID低频测试</string>
+
+</resources>

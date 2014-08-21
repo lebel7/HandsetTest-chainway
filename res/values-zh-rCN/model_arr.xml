@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="defaultname">
+        <item>Ping测试</item>
+        <item>上传测速</item>
+        <item>下载测速</item>
+        <item>蓝牙打印测试</item>
+        <item>网络信号测试</item>
+        <item>GPS定位测试</item>
+        <item>电量监视</item>
+    </string-array>
+    <string-array name="defaulticon">
+        <item>p</item>
+        <item>u</item>
+        <item>d</item>
+        <item>b</item>
+        <item>n</item>
+        <item>g</item>
+        <item>b2</item>
+    </string-array>
+    <string-array name="defaultcls">
+        <item>PingActivity</item>
+        <item>UploadActivity</item>
+        <item>DownloadActivity</item>
+        <item>BluetoothPrintActivity</item>
+        <item>NetworkStatusActivity</item>
+        <item>GpsActivity</item>
+        <item>BatteryMonitorActivity</item>
+    </string-array>
+    <string-array name="i760name">
+        <item>Ping测试</item>
+        <item>上传测速</item>
+        <item>下载测速</item>
+        <item>一维条码测试</item>
+        <item>蓝牙打印测试</item>
+        <item>按键测试</item>
+        <item>网络信号测试</item>
+        <item>GPS定位测试</item>
+        <item>UHF测试</item>
+        <item>RFID14443A测试</item>
+        <item>RFID15693测试</item>
+        <item>RFID低频测试</item>
+        <item>电量监视</item>
+        <item>指纹识别测试</item>
+    </string-array>
+    <string-array name="i760cls">
+        <item>PingActivity</item>
+        <item>UploadActivity</item>
+        <item>DownloadActivity</item>
+        <item>YiDActivity</item>
+        <item>BluetoothPrintActivity</item>
+        <item>KeyTestActivity</item>
+        <item>NetworkStatusActivity</item>
+        <item>GpsActivity</item>
+        <item>UHFMainActivity</item>
+        <item>A14443Activity</item>
+        <item>ISO15693Activity</item>
+        <item>LFActivity</item>
+        <item>BatteryMonitorActivity</item>
+        <item>FingerprintActivity</item>
+    </string-array>
+    <string-array name="i760icon">
+        <item>p</item>
+        <item>u</item>
+        <item>d</item>
+        <item>d1</item>
+        <item>b</item>
+        <item>k</item>
+        <item>n</item>
+        <item>g</item>
+        <item>uhf</item>
+        <item>r</item>
+        <item>r</item>
+        <item>r</item>
+        <item>b2</item>
+        <item>f</item>
+    </string-array>
+    <string-array name="allname">
+        <item>Ping测试</item>
+        <item>上传测速</item>
+        <item>下载测速</item>
+        <item>一维条码测试</item>
+        <item>蓝牙打印测试</item>
+        <item>按键测试</item>
+        <item>网络信号测试</item>
+        <item>GPS定位测试</item>
+        <item>UHF测试</item>
+        <item>RFID14443A测试</item>
+        <item>RFID15693测试</item>
+        <item>RFID低频测试</item>
+        <item>电量监视</item>
+        <item>指纹识别测试</item>
+    </string-array>
+    <string-array name="allcls">
+        <item>PingActivity</item>
+        <item>UploadActivity</item>
+        <item>DownloadActivity</item>
+        <item>YiDActivity</item>
+        <item>BluetoothPrintActivity</item>
+        <item>KeyTestActivity</item>
+        <item>NetworkStatusActivity</item>
+        <item>GpsActivity</item>
+        <item>UHFMainActivity</item>
+        <item>A14443Activity</item>
+        <item>ISO15693Activity</item>
+        <item>LFActivity</item>
+        <item>BatteryMonitorActivity</item>
+        <item>FingerprintActivity</item>
+    </string-array>
+    <string-array name="allicon">
+        <item>p</item>
+        <item>u</item>
+        <item>d</item>
+        <item>d1</item>
+        <item>b</item>
+        <item>k</item>
+        <item>n</item>
+        <item>g</item>
+        <item>uhf</item>
+        <item>r</item>
+        <item>r</item>
+        <item>r</item>
+        <item>b2</item>
+        <item>f</item>
+    </string-array>
+    <string-array name="c4000name">
+        <item>Ping测试</item>
+        <item>上传测速</item>
+        <item>下载测速</item>
+        <item>一维条码测试</item>
+        <item>蓝牙打印测试</item>
+        <item>UHF测试</item>
+        <item>网络信号测试</item>
+        <item>GPS定位测试</item>
+        <item>RFID14443A测试</item>
+        <item>RFID15693测试</item>
+        <item>RFID低频测试</item>
+        <item>电量监视</item>
+        <item>指纹识别测试</item>
+    </string-array>
+    <string-array name="c4000cls">
+        <item>PingActivity</item>
+        <item>UploadActivity</item>
+        <item>DownloadActivity</item>
+        <item>YiDActivity</item>
+        <item>BluetoothPrintActivity</item>
+        <item>UHFMainActivity</item>
+        <item>NetworkStatusActivity</item>
+        <item>GpsActivity</item>
+        <item>A14443Activity</item>
+        <item>ISO15693Activity</item>
+        <item>LFActivity</item>
+        <item>BatteryMonitorActivity</item>
+        <item>FingerprintActivity</item>
+    </string-array>
+    <string-array name="c4000icon">
+        <item>p</item>
+        <item>u</item>
+        <item>d</item>
+        <item>d1</item>
+        <item>b</item>
+        <item>uhf</item>
+        <item>n</item>
+        <item>g</item>
+        <item>r</item>
+        <item>r</item>
+        <item>r</item>
+        <item>b2</item>
+        <item>f</item>
+    </string-array>
+
+</resources>

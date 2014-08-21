@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layMain"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:orientation="horizontal" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/btnOne"
+                android:layout_width="64dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/pop_menu_bg"
+                android:focusable="true"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bar_add" />
+
+                <TextView
+                    android:id="@+id/txtOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sepOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/separator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnTwo"
+                android:layout_width="64dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/pop_menu_bg"
+                android:focusable="true"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bar_edit" />
+
+                <TextView
+                    android:id="@+id/txtTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sepTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/separator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnThree"
+                android:layout_width="64dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/pop_menu_bg"
+                android:focusable="true"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bar_trash" />
+
+                <TextView
+                    android:id="@+id/txtThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sepThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/separator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnFour"
+                android:layout_width="64dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/pop_menu_bg"
+                android:focusable="true"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sepFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/separator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnFive"
+                android:layout_width="64dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/pop_menu_bg"
+                android:focusable="true"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sepFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/separator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnSix"
+                android:layout_width="64dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/pop_menu_bg"
+                android:focusable="true"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgSix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtSix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

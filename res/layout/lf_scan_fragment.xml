@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_bg"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_bg"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cbContinuous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rfid_msg_scan_continuous" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:text="@string/title_scan_between" />
+
+            <EditText
+                android:id="@+id/et_between"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:inputType="number"
+                android:singleLine="true"
+                android:text="100" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ms" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/list_bg"
+            android:gravity="left|top"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="@string/lf_title_card_type" />
+
+            <Spinner
+                android:id="@+id/spType"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:entries="@array/arrayLF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="false" >
+
+            <requestFocus />
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_stat"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/layoutbg"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_scan_count"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_scan_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:text="@string/title_succ_count"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_succ_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="0" />
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/back"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_Clear"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/title_clear" />
+
+        <Button
+            android:id="@+id/btn_Start"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/title_scan" />
+    </LinearLayout>
+
+</LinearLayout>

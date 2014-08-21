@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/menu_bg_selected"
+        android:clickable="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvOperatorNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:text="@string/tel_title_OperatorName" />
+
+        <TextView
+            android:id="@+id/tvOperatorName"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_toRightOf="@id/tvOperatorNameTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvStatusTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/tvOperatorName"
+            android:text="@string/tel_title_Status" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvStatusTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNetworkTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOperatorName"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:text="@string/tel_title_NetworkType" />
+
+        <TextView
+            android:id="@+id/tvNetworkType"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_below="@id/tvOperatorName"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvNetworkTypeTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSignalTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOperatorName"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/tvNetworkType"
+            android:text="@string/tel_title_Signal" />
+
+        <TextView
+            android:id="@+id/tvSignal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_below="@id/tvOperatorName"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvSignalTitle"
+            android:gravity="center"
+            android:text="UNKNOWN"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <com.chainway.ht.view.ChartView
+        android:id="@+id/llChart"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+    </com.chainway.ht.view.ChartView>
+
+</LinearLayout>

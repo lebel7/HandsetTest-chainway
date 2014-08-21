@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chainway Tools</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="title_ip_or_domain">Input Domain/IP</string>
+    <string name="title_ping_count">PING Count</string>
+    <string name="title_ping_background">Background</string>
+    <string name="title_ping_wait">Timeout</string>
+    <string name="title_start">Start</string>
+    <string name="title_stop">Stop</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_set">Settings</string>
+    <string name="msg_network_none">Network unavailable</string>
+    <string name="msg_network_unavailable">Network unavailable</string>
+    <string name="msg_domain_ip_bad">Domain/IP Error</string>
+    <string name="msg_loding">loading...</string>
+    <string name="msg_no_data">NO DATA</string>
+    <string name="app_title">Chainway Tools %s</string>
+    <string name="upload_title">Upload Tool %s</string>
+    <string name="download_title">Download Tool %s</string>
+    <string name="action_back">Back</string>
+    <string name="ok">OK</string>
+    <string name="exit">Exit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="up_one_level">..(up)</string>
+    <string name="current_dir">.(refresh)</string>
+    <string name="strFilePath">File Path</string>
+    <string name="strBrowser">Browse</string>
+    <string name="strPermissionDeny">No permission</string>
+    <string name="title_activity_download">Download Tool</string>
+    <string name="title_activity_upload">Upload Tool</string>
+    <string name="title_Ping">Ping Tool</string>
+    <string name="title_Download">Download Tool</string>
+    <string name="title_Upload">Upload Tool</string>
+    <string name="strUpload">Upload</string>
+    <string name="title_activity_ping">PingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_ping_packet_size">Packet Size</string>
+    <string name="ping_title">Ping Tool %s</string>
+    <string name="yid_title">1D Barcode Tool</string>
+    <string name="title_activity_yi_d">Barcode_1D Tool</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_clear">Clear</string>
+    <string name="title_init_barcode">init Barcode</string>
+    <string name="title_scan_between">Interval</string>
+    <string name="yid_title_scan_compare">Compare</string>
+    <string name="yid_title_scan_continuous">Auto,interval</string>
+    <string name="yid_msg_scan_fail">Scan fail</string>
+    <string name="yid_msg_scan_error">Barcode error</string>
+    <string name="title_scan_count">total</string>
+    <string name="title_succ_count">success</string>
+    <string name="title_fail_count">fail</string>
+    <string name="title_error_count">error</string>
+    <string name="title_error_rate">error %</string>
+    <string name="title_succ_rate">success %</string>
+    <string name="title_fail_rate">fail %</string>
+    <string name="title_activity_bluetooth_print">Bluetooth Tool</string>
+
+    <!-- BTPrinterDemo -->
+    <string name="send">Send</string>
+    <string name="Print">Print</string>
+    <string name="Clear">Clear</string>
+    <string name="not_connected">Please connect the bluetooth printer</string>
+    <string name="bt_not_enabled_leaving">Please select a device!!</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected: </string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="default_font_gray_scale">4</string>
+    <string name="fontGrayscaleName">Grayscale</string>
+    <string name="fontGrayScaleRange">(1~8)</string>
+    <string name="PrintContent"> HELLO WORLD! \n</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning...</string>
+    <string name="select_device">Not connected</string>
+    <string name="none_paired">No Matching</string>
+    <string name="none_found">Not found</string>
+    <string name="title_paired_devices">Matched</string>
+    <string name="title_other_devices">Other Devices</string>
+    <string name="button_scan">Scan</string>
+    <string name="title_activity_uhfmain">UHF Tool</string>
+
+    <!-- inventorytag -->
+    <string name="tvInventoryName">Inventory Tag</string>
+    <string name="tvCountOfTags">Total&#160;&#160;</string>
+    <string name="rbInventorySingle">Single</string>
+    <string name="rbInventoryLoop">Auto</string>
+    <string name="rbInventoryAnti">Anti</string>
+    <string name="tvQ">Q value：</string>
+    <string name="btInventory">Start</string>
+    <string name="title_stop_Inventory">Stop</string>
+    <string name="tvTagUii">EPC</string>
+    <string name="tvTagLen">Length</string>
+    <string name="tvTagCount">Count</string>
+    <string name="btClear">Clear</string>
+
+    <string-array name="arrayAntiQ">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="arrayLF">
+        <item>ID Card</item>
+        <item>Animal Tag</item>
+        <item>HiTag</item>
+        <item>HDX Tag</item>
+        <item>EM4450</item>
+    </string-array>
+
+    <!-- read -->
+    <string name="btUii">Read EPC</string>
+    <string name="ckWithUii">Use EPC</string>
+    <string name="tvTagUii_Read">EPC：</string>
+    <string name="tvBank">Bank：</string>
+    <string name="tvPtr">Ptr：</string>
+    <string name="tvLen">Len：</string>
+    <string name="tvAccessPwd">Access Pwd：</string>
+    <string name="tvOption_Read">Read Mode：</string>
+    <string name="ckLoop_Read">Auto</string>
+    <string name="ckAnti_Read">Anti</string>
+    <string name="ckSecond">2级参数设置</string>
+    <string name="tvBank2_Read">Block：</string>
+    <string name="tvPtr2_Read">Ptr：</string>
+    <string name="tvLen2_Read">Len：</string>
+    <string name="tvData_Read">Data：</string>
+    <string name="btRead">Read</string>
+
+    <string-array name="arrayBank">
+        <item>RESERVED</item>
+        <item>UII</item>
+        <item>TID</item>
+        <item>USER</item>
+    </string-array>
+    <string-array name="arrayOption_Read">
+        <item>Single</item>
+        <item>Auto</item>
+        <item>Anti(1 level)</item>
+        <item>Anti(2 level)</item>
+    </string-array>
+
+    <!-- chooseuii -->
+    <string name="tvChooseInfo">请选择UII的去向</string>
+    <string name="rbRead">Read Data</string>
+    <string name="rbWrite">Write Data</string>
+    <string name="rbErase">Erase Data</string>
+    <string name="rbLock">Lock Data</string>
+    <string name="btEnter">Confirm</string>
+    <string name="btCancel">Cancel</string>
+
+    <!-- getuiiforoperation -->
+    <string name="tvGetUiiForOperation">Tags List</string>
+    <string name="btReadUii">Read UII</string>
+
+    <!-- datalist -->
+    <string name="btStop">Stop</string>
+    <string name="btBack1">Back</string>
+
+    <!-- datalist_items -->
+    <string name="tvTagUii_Data">EPC：</string>
+    <string name="tvBank_Data">Block：</string>
+    <string name="tvPtr_Data">Ptr：</string>
+    <string name="tvLen_Data">Len：</string>
+    <string name="tvCount_Data">Count：</string>
+    <string name="tvData_Data">Data：</string>
+    <string name="tvStatus_Data">Status：</string>
+
+    <!-- write -->
+    <string name="tvTagUii_Write">EPC：</string>
+    <string name="tvOption_Write">Write Mode：</string>
+    <string name="tvData_Write">Write Data：</string>
+    <string name="btWrite">Write Data</string>
+
+    <string-array name="arrayOption_Write">
+        <item>Singleword</item>
+        <item>Multiword</item>
+    </string-array>
+
+    <!-- lock -->
+    <string name="tvTagUii_Lock">EPC：</string>
+    <string name="tvKill_Lock">Kill Pwd：</string>
+    <string name="tvAccess_Lock">Access Pwd：</string>
+    <string name="tvUII_Lock">UII：</string>
+    <string name="tvTID_Lock">TID：</string>
+    <string name="tvUSER_Lock">USER：</string>
+    <string name="tvLockCode_Lock">Lock Code：</string>
+    <string name="btCreateCode">Create Code</string>
+    <string name="btLock">Lock</string>
+
+    <string-array name="arrayLock">
+        <item>Hold</item>
+        <item>Lock</item>
+        <item>Unlock</item>
+        <item>Permanent Lock</item>
+        <item>Permanent Unlock</item>
+    </string-array>
+
+    <!-- killtag -->
+    <string name="tvTagUii_Kill">EPC：</string>
+    <string name="tvKillPwd">Kill Pwd：</string>
+    <string name="btKill">Kill</string>
+
+    <!-- select -->
+    <string name="tvBank_Select">Block：</string>
+    <string name="tvPtr_Select">Ptr：</string>
+    <string name="tvMask">Mask：</string>
+    <string name="tvOrder">S/N：</string>
+    <string name="num">Count：</string>
+    <string name="btAdd_Select">Add</string>
+    <string name="btDel_Select">Del</string>
+    <string name="btChoose_Select">Select</string>
+    <string name="btRead_Select">Read</string>
+
+    <string-array name="arrayNum">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <!-- frequency -->
+    <string name="tvMode">Working Mode：</string>
+    <string name="btSetFre">FrequencySet</string>
+    <string name="tvFreRange">Frequency Range：</string>
+    <string name="btGetFre">Read Frequency</string>
+    <string name="tvStartFreI">The starting frequency integer：</string>
+    <string name="tvFreI">840</string>
+    <string name="btAddI">+</string>
+    <string name="btReduceI">-</string>
+    <string name="tvStartFreD">Starting frequency of the decimal：</string>
+    <string name="tvFreD">50</string>
+    <string name="btAddD">+</string>
+    <string name="btReduceD">-</string>
+    <string name="tvBase">band base number：</string>
+    <string name="tvChannelCount">Channel：</string>
+    <string name="HintChannelCount">Channel number not less than 1</string>
+    <string name="tvChinnelSpace">Channel Bandwidth：</string>
+    <string name="tvHop">Freq Jump：</string>
+    <string name="btCalRange">Calculation</string>
+    <string name="tvMHz">MHz</string>
+    <string name="tvKHz">KHz</string>
+
+    <string-array name="arrayMode">
+        <item>China Standard(920~925MHz)</item>
+        <item>China Standard(840~845MHz)</item>
+        <item>ETSI Standard(865~868MHz)</item>
+        <item>Fixed Frequency(922MHz)</item>
+    </string-array>
+    <string-array name="arrayBase">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="arrayChannelSpc0">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="arrayChannelSpc1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="arrayHop">
+        <item>随机跳频</item>
+        <item>从高往低顺序跳频</item>
+        <item>从低往高顺序跳频</item>
+    </string-array>
+
+    <string name="title_activity_uhfset">UHF Settings</string>
+    <string name="title_activity_network_status">Network Signal Tool</string>
+    <string name="ap_list_header_channel">Channel</string>
+    <string name="ap_list_header_level">Level</string>
+    <string name="ap_list_header_ssid">SSID</string>
+    <string name="ap_list_header_state">Status</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="ap_title_ssid">Connected To：</string>
+    <string name="ap_title_pause">Pause</string>
+    <string name="ap_title_goon">Continue</string>
+    <string name="ap_title_wifi_size">WiFi Count：</string>
+    <string name="ap_dialog_title">Connected To</string>
+    <string name="ap_title_bssid">BSSID：</string>
+    <string name="ap_title_security">Security：</string>
+    <string name="ap_title_pwd">Pwd：</string>
+    <string name="ap_title_ip">IP：</string>
+    <string name="tel_title_OperatorName">SP：</string>
+    <string name="tel_title_Status">Status：</string>
+    <string name="tel_title_NetworkType">Network Type：</string>
+    <string name="tel_title_Signal">SS：</string>
+    <string name="title_activity_gps">GPS Tool</string>
+    <string name="gps_title_Longitude">Lon：</string>
+    <string name="gps_title_Latitude">Lat：</string>
+    <string name="gps_title_SatelliteCount">Satellite：</string>
+    <string name="gps_title_Altitude">Altitude：</string>
+    <string name="gps_title_GpsStatus">Status：</string>
+    <string name="gps_title_Time">Time：</string>
+    <string name="title_activity_app_set">Settings</string>
+    <string name="title_activity_a1443">RFID14443A Tool</string>
+    <string name="title_activity_iso15693">RFID15693 Tool</string>
+    <string name="m1_title_tag_type">Tag Type:</string>
+    <string name="m1_title_key_type">Key Type:</string>
+    <string name="m1_title_key_value">Key:</string>
+    <string name="m1_title_sector">Sector:</string>
+    <string name="m1_title_block">Block:</string>
+    <string name="m1_title_read">Read</string>
+    <string name="m1_title_write">Write</string>
+    <string name="ul_title_uid">UID：</string>
+    <string name="ul_title_scan">Scan</string>
+    <string name="ul_title_AFI">AFI(1 Byte)</string>
+    <string name="ul_title_DSFID">DSFID(1 Byte)</string>
+    <string name="ml_title_read_id">Read ID</string>
+    <string name="ul_title_write_AFI">Write</string>
+    <string name="ul_title_lock_AFI">Lock</string>
+    <string name="ul_title_write_DSFID">Write</string>
+    <string name="ul_title_lock_DSFID">Lock</string>
+    <string name="rfid_title_continuous">Auto R/W</string>
+    <string name="rfid_title_continuous_read">Auto Read</string>
+    <string name="rfid_title_continuous_write">Auto Write</string>
+    <string name="rfid_title_continuous_read_write">Auto R/W</string>
+    <string name="rfid_title_continuous_count">Total:</string>
+    <string name="rfid_title_continuous_read_succ_count">Succ(R):</string>
+    <string name="rfid_title_continuous_read_fail_count">Fail(R):</string>
+    <string name="rfid_title_continuous_write_succ_count">Succ(W):</string>
+    <string name="rfid_title_continuous_write_fail_count">Fail(W):</string>
+    <string name="action_rfid_ver">RFID Version</string>
+    <string name="title_about_model">Model:</string>
+    <string name="title_about_android_release">Android version:</string>
+    <string name="title_about_device_release">Build number:</string>
+    <string name="title_about_jar_release">jar Version:</string>
+    <string name="title_about_mac">MAC Address:</string>
+    <string name="title_activity_global_set">Settings</string>
+    <string name="title_activity_key_test">Keyboard Tool</string>
+    <string name="title_activity_key_power">P\no\nw\ne\nr</string>
+    <string name="title_activity_key_home">HOME</string>
+    <string name="title_activity_key_back">BACK</string>
+    <string name="ping_msg_pinging">Ping... </string>
+    <string name="ping_msg_fail">Domain/IP Error</string>
+    <string name="up_msg_net_not_conn">Network is not connected</string>
+    <string name="up_msg_sel_file">Please select a file first</string>
+    <string name="up_msg_file_not_exist">The file is not exist</string>
+    <string name="up_msg_file_size">File Size：</string>
+    <string name="up_msg_start_time">Start Time：</string>
+    <string name="up_msg_stop_time">End Time：</string>
+    <string name="up_msg_total_time">Used Time：</string>
+    <string name="up_msg_avg_speed">Speed(avg)：</string>
+    <string name="download_msg_down_file">Download File</string>
+    <string name="download_msg_down_confirm">Confirm to download the file?</string>
+    <string name="download_msg_confirm">Confirm</string>
+    <string name="download_msg_cancel">Cancel</string>
+    <string name="download_msg_close">Close</string>
+    <string name="download_msg_file_path_not_exist">The file is not exist</string>
+    <string name="download_msg_down_succ">Download Complete</string>
+    <string name="download_msg_down_report">Test Results</string>
+    <string name="download_msg_down_file_size">Completed Size：</string>
+    <string name="download_msg_total_time">Used Time：</string>
+    <string name="download_msg_sdcard_not_exist">Sd card does not exist</string>
+    <string name="download_msg_downing">Downloading ...</string>
+    <string name="bluetooth_msg_not_supp">Bluetooth devices do not support</string>
+    <string name="network_msg_title_mobile">Mobile</string>
+    <string name="network_msg_sim_not_exist">No Sim</string>
+    <string name="network_msg_emergency_only">Emergency calls only</string>
+    <string name="network_msg_in_service">In Service</string>
+    <string name="network_msg_out_of_service">Out of Service</string>
+    <string name="network_msg_power_off">Power off</string>
+    <string name="network_msg_wifi_conn_fail">Connection fail</string>
+    <string name="network_msg_wifi_conning">Connecting...</string>
+    <string name="network_msg_wifi_not_enable">WiFi Unavailable</string>
+    <string name="network_msg_wifi_conn">Connect</string>
+    <string name="network_msg_wifi_speed">Speed：</string>
+    <string name="network_msg_wifi_level">Level：</string>
+    <string name="gps_msg_open_gps">Please open the GPS navigation...</string>
+    <string name="gps_msg_Locate_succ">GPS positioning success</string>
+    <string name="gps_msg_Locateing">Locating...</string>
+    <string name="gps_msg_Locate_stop">Finish positioning</string>
+    <string name="gps_msg_title_satellite_signal">The satellite signal</string>
+    <string name="uhf_msg_tab_scan">Scan</string>
+    <string name="uhf_msg_tab_read">Read</string>
+    <string name="uhf_msg_tab_write">Write</string>
+    <string name="uhf_msg_tab_set">FREQ</string>
+    <string name="rfid_msg_scan_fail">Scan failed</string>
+    <string name="rfid_msg_scan_continuous">Auto Scan</string>
+    <string name="ping_msg_background_ping">Ping</string>
+    <string name="ping_msg_runing">ping...,After the completion of the click to view</string>
+    <string name="ping_msg_finish">Finish</string>
+    <string name="bluetooth_title_file">File</string>
+    <string name="title_activity_battery_monitor">Battery Monitor Tool</string>
+    <string name="battery_title_tips">Tips:Results are stored in the SD card in the chainway/BatteryMonitor directory.</string>
+    <string name="battery_msg_background_monitoring">Battery Monitor</string>
+    <string name="battery_msg_runing">Monitoring</string>
+    <string name="title_activity_fingerprint">Fingerprint Tool</string>
+    <string name="fingerprint_tab_identification">Identification</string>
+    <string name="fingerprint_tab_acquisition">acquisition</string>
+    <string name="fingerprint_title_page_id">Page ID(0~254)</string>
+    <string name="fingerprint_title_name">Name</string>
+    <string name="fingerprint_btn_save">Acquisition</string>
+    <string name="fingerprint_btn_identification">Identification</string>
+    <string name="fingerprint_msg_page_id_not_null">Page ID cannot be empty</string>
+    <string name="fingerprint_msg_name_not_null">Name cannot be empty</string>
+    <string name="fingerprint_msg_page_id_need_digits">Page ID must be a number</string>
+    <string name="fingerprint_msg_page_id_need_0_to_254">Page ID must be in the range of 0 ~ 254</string>
+    <string name="fingerprint_msg_acq_succ">Acquisition success</string>
+    <string name="fingerprint_msg_acq_fail">Acquisition failure</string>
+    <string name="fingerprint_title_show_img">Show image</string>
+    <string name="fingerprint_title_get_img_fail">Failed to get the fingerprint images</string>
+    <string name="fingerprint_msg_init_fail">Device initialization failed</string>
+    <string name="fingerprint_msg_ident_fail">Identification failure</string>
+    <string name="fingerprint_msg_ident_succ">Identification success</string>
+    <string name="fingerprint_title_score">Score</string>
+    <string name="fingerprint_tab_history">Data</string>
+    <string name="fingerprint_btn_import">Import</string>
+    <string name="fingerprint_btn_clear">Reset</string>
+    <string name="fingerprint_msg_import_fail">Import failure(succ:%1$d,fail:%2$d)</string>
+    <string name="fingerprint_msg_import_succ">Import success</string>
+    <string name="fingerprint_msg_sure_clear">Are you sure to reset?</string>
+    <string name="fingerprint_msg_clear_fail">Reset failure</string>
+    <string name="fingerprint_msg_clear_succ">Reset success</string>
+    <string name="fingerprint_title_index">index</string>
+    <string name="fingerprint_title_pageid">Page ID</string>
+    <string name="fingerprint_title_uname">Name</string>
+    <string name="fingerprint_title_create">Time</string>
+    <string name="fingerprint_title_local_num">Total(local):</string>
+    <string name="fingerprint_title_model_num">Total(model):</string>
+    <string name="fingerprint_menu_del">Delete</string>
+    <string name="network_msg_operator_is_null">No operator information</string>
+    <string name="title_activity_lf">RFID_LF Tool</string>
+    <string name="file_title_sel_file">Choose file</string>
+    <string name="file_title_sel_file_confirm">Are you sure select the file?</string>
+    <string name="file_btn_confirm">Confirm</string>
+    <string name="file_btn_cancel">Cancel</string>
+    <string name="file_msg_cancel">Cancel</string>
+    <string name="ping_msg_not_null">Input cannot be empty</string>
+    <string name="gps_title_tip">Message</string>
+    <string name="gps_msg_gps_not_open">GPS is not open, whether to open?</string>
+    <string name="gps_btn_yes">YES</string>
+    <string name="gps_btn_no">NO</string>
+    <string name="bluetooth_title_tip">Message</string>
+    <string name="bluetooth_msg_not_adapter">No paired bluetooth devices, please go to the matches</string>
+    <string name="bluetooth_btn_yes">YES</string>
+    <string name="bluetooth_btn_no">NO</string>
+    <string name="bluetooth_msg_connection_failed">Connection failed, please check whether the device is being used</string>
+    <string name="lf_title_card_type">Tag Type:</string>
+    <string name="lf_msg_scan_fail">Scan fail</string>
+    <string name="lf_title_pageid">Page ID:</string>
+    <string name="lf_title_data">Data:</string>
+    <string name="lf_title_write">Write</string>
+    <string name="lf_title_read">Read</string>
+    <string name="lf_msg_data_not_null">The data can not be empty</string>
+    <string name="lf_msg_data_not_hex4">Please enter the HEX 4 bytes</string>
+    <string name="lf_msg_write_succ">Data is written to success</string>
+    <string name="lf_msg_write_fail">Data is written to failure</string>
+    <string name="lf_msg_data_page_id_err_em4305">Can only be 0,3,5~13, one of the page write data</string>
+
+</resources>

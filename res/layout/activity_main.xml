@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+
+        android:background="@drawable/back" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imgBtnRight"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/title_btn_right"
+            android:contentDescription="@string/action_set"
+            android:src="@drawable/mm_title_btn_menu"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvModule"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_weight="1"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="#eaeaea"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@color/transparent" >
+    </ListView>
+
+</LinearLayout>

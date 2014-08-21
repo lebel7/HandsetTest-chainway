@@ -1,0 +1,86 @@
+# view res/layout/activity_a1443.xml #generated:1
+# view res/layout/activity_fingerprint.xml #generated:1
+# view res/layout/activity_lf.xml #generated:1
+# view res/layout/activity_network_status.xml #generated:1
+# view res/layout/activity_uhfmain.xml #generated:1
+-keep class android.support.v4.app.FragmentTabHost { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.chainway.ht.AppContext { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.chainway.ht.filebrowser.FileManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class com.chainway.ht.services.BatteryMonitorService { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.chainway.ht.services.FileService { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class com.chainway.ht.services.PingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.chainway.ht.ui.A14443Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.chainway.ht.ui.AppSetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.chainway.ht.ui.BatteryMonitorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.chainway.ht.ui.BluetoothPrintActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.chainway.ht.ui.DeviceListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.chainway.ht.ui.DownloadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.chainway.ht.ui.FingerprintActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.chainway.ht.ui.GlobalSetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.chainway.ht.ui.GpsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.chainway.ht.ui.ISO15693Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.chainway.ht.ui.KeyTestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class com.chainway.ht.ui.LFActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.chainway.ht.ui.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.chainway.ht.ui.NetworkStatusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.chainway.ht.ui.PingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.chainway.ht.ui.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.chainway.ht.ui.TestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.chainway.ht.ui.UHFMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.chainway.ht.ui.UploadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.chainway.ht.ui.YiDActivity { <init>(...); }
+
+# view res/layout/mobile_fragment.xml #generated:97
+# view res/layout/wifi_fragment.xml #generated:49
+-keep class com.chainway.ht.view.ChartView { <init>(...); }
+

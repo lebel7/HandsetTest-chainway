@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/menu_bg_selected"
+        android:clickable="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvCurrSSIDTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:text="@string/ap_title_ssid" />
+
+        <TextView
+            android:id="@+id/tvCurrSSID"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_size_18"
+            android:layout_toRightOf="@id/tvCurrSSIDTitle"
+            android:gravity="center"
+            android:text="none"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCurrApMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCurrSSID"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:gravity="left" />
+
+        <ImageView
+            android:id="@+id/ivChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvCurrApMore"
+            android:src="@drawable/btn_chart" />
+
+        <com.chainway.ht.view.ChartView
+            android:id="@+id/llChart"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_below="@id/ivChart"
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </com.chainway.ht.view.ChartView>
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvWiFi"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/network_list_small_padding"
+        android:paddingRight="@dimen/network_list_small_padding" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/layoutbg"
+        android:clickable="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvWifiSizeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:gravity="left|center_vertical"
+            android:text="@string/ap_title_wifi_size" />
+
+        <TextView
+            android:id="@+id/tvWifiSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/network_list_small_padding"
+            android:layout_toRightOf="@id/tvWifiSizeTitle"
+            android:gravity="left|center_vertical"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btnOp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            
+                android:background="@drawable/title_btn_right"
+            android:text="@string/ap_title_pause"
+            android:textSize="@dimen/text_size_12" />
+    </RelativeLayout>
+
+</LinearLayout>

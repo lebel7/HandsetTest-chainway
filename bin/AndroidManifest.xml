@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chainway.ht"
+    android:versionCode="17"
+    android:versionName="1.5.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <!-- 以下是使用wifi关闭当前程序 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <!-- 以下是使用wifi访问网络所需的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.chainway.ht.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="1296a9923e" />
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="download" />
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START" />
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false" />
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true" />
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true" />
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true" />
+
+        <activity
+            android:name="com.chainway.ht.ui.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.DownloadActivity"
+            android:label="@string/title_activity_download"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.UploadActivity"
+            android:label="@string/title_activity_upload"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.filebrowser.FileManagerActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.chainway.ht.ui.PingActivity"
+            android:label="@string/title_activity_ping"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.YiDActivity"
+            android:label="@string/title_activity_yi_d"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.BluetoothPrintActivity"
+            android:label="@string/title_activity_bluetooth_print"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.chainway.ht.ui.UHFMainActivity"
+            android:label="@string/title_activity_uhfmain"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.NetworkStatusActivity"
+            android:label="@string/title_activity_network_status"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.GpsActivity"
+            android:label="@string/title_activity_gps"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.AppSetActivity"
+            android:label="@string/title_activity_app_set"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.A14443Activity"
+            android:label="@string/title_activity_a1443"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.ISO15693Activity"
+            android:label="@string/title_activity_iso15693"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.GlobalSetActivity"
+            android:label="@string/title_activity_global_set"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.KeyTestActivity"
+            android:label="@string/title_activity_key_test"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+
+        <service
+            android:name="com.chainway.ht.services.FileService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.chainway.ht.services.PingService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.chainway.ht.services.BatteryMonitorService"
+            android:enabled="true" >
+        </service>
+
+        <activity
+            android:name="com.chainway.ht.ui.BatteryMonitorActivity"
+            android:label="@string/title_activity_battery_monitor"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.FingerprintActivity"
+            android:label="@string/title_activity_fingerprint"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.chainway.ht.ui.LFActivity"
+            android:label="@string/title_activity_lf"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fingerprint_title_page_id"
+            android:textColor="@color/gray" />
+
+        <EditText
+            android:id="@+id/etPageId"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/fingerprint_title_page_id"
+            android:inputType="numberSigned|textNoSuggestions"
+            android:maxLength="500"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:singleLine="true"
+            android:textColor="@color/deep_gray"
+            android:textCursorDrawable="@null"
+            android:textSize="16.0sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fingerprint_title_name"
+            android:textColor="@color/gray" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/fingerprint_title_name"
+            android:inputType="textNoSuggestions"
+            android:maxLength="500"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:singleLine="true"
+            android:textColor="@color/deep_gray"
+            android:textCursorDrawable="@null"
+            android:textSize="16.0sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/cbShowImg"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fingerprint_title_show_img" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fingerprint_btn_save" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/ivFinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</LinearLayout>
